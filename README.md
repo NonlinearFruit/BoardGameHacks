@@ -4,14 +4,15 @@ Simple scripts that break some of my favorite games xD
 
 ## Games
 
-| Game       | Script         | Board Game Geek                                      |
-| ---        | ---            | ---                                                  |
-| Can't Stop | `cant_stop.py` | https://www.boardgamegeek.com/boardgame/41/cant-stop |
+| Game                     | Script         | Board Game Geek                                      |
+| ---                      | ---            | ---                                                  |
+| [Can't Stop](#cant-stop) | `cant_stop.py` | https://www.boardgamegeek.com/boardgame/41/cant-stop |
 
 ### Can't Stop
 
 | Usage                  | Description                                     |
 | ---                    | ---                                             |
+| `cant_stop.py`         | Probability of getting each sum                 |
 | `cant_stop.py x`       | Ways to not get a sum of `x`                    |
 | `cant_stop.py x y`     | Ways to not get a sum of `x` or `y`             |
 | `cant_stop.py x y z`   | Ways to not get a sum of `x` or `y` or `z`      |
