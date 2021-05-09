@@ -1,0 +1,19 @@
+Dice:
+ Bullet: [1, 2, 3]
+ Dash: [4, 5]
+ Bullseye: [6]
+Powers:
+ Revolver 1: ["Bullet", "Bullet", "Bullet"]
+ Revolver 2: ["Bullet", "Bullet", "Bullet", "Bullet"]
+ Revolver 3: ["Bullet", "Bullet", "Bullet", "Bullet", "Bullet"]
+ Bounty Hunter: ["Bullet", "Bullet", "Bullseye", "Bullseye"]
+ Take Cover: ["Bullet", "Bullet", "Dash", "Dash", "Dash"]
+ Fill'em With Lead!: ["Bullseye", "Bullseye", "Bullseye", "Bullseye", "Bullseye"]
+ Deadeye: ["Bullseye", "Bullseye", "Bullseye", "Bullseye"]
+ Showdown: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Fan The Hammer: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]
