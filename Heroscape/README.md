@@ -7,7 +7,6 @@ A simple tool for generating the probability distributions of skulls, shields an
 | Bash                                                         |
 | Python                                                       |
 | `pip install numpy`                                          |
-| `pip install numpy`                                          |
 | `pip install unittest`                                       |
 | [`pip install termgraph`](https://github.com/mkaz/termgraph) |
 

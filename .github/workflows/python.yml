@@ -11,5 +11,7 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
+    - name: Install Dependencies
+      run: 'pip install numpy pyyaml'
     - name: Run Tests
       run: 'for folder in $(ls -d */); do cd $folder; echo $folder; for file in *tests.py; do [ -e "$file" ] && python *tests.py || echo "No Tests"; done; cd ..; done'
