@@ -1,0 +1,7 @@
+attack=$1
+defense=$2
+
+python ~/projects/heroscape/dice_stats.py stats ${attack} ${defense}
+python ~/projects/heroscape/dice_stats.py attack ${attack} | termgraph --color red --title Skulls
+python ~/projects/heroscape/dice_stats.py defense ${defense} | termgraph --color blue --title Shields
+python ~/projects/heroscape/dice_stats.py wound ${attack} ${defense} | termgraph --color magenta --title Wounds
