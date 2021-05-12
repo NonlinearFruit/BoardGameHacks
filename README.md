@@ -2,9 +2,7 @@
 
 Simple scripts that break some of my favorite games xD
 
-## Games
-
-| Game                                |
+| Games                               |
 | ---                                 |
 | [Can't Stop](CantStop/README.md)    |
 | [Dice Throne](DiceThrone/README.md) |
