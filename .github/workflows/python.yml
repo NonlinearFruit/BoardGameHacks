@@ -3,7 +3,7 @@ name: Python Tests
 on: [push]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -14,4 +14,4 @@ jobs:
     - name: Install Dependencies
       run: 'pip install numpy pyyaml'
     - name: Run Tests
-      run: 'for folder in $(ls -d */); do cd $folder; echo $folder; for file in *tests.py; do [ -e "$file" ] && python *tests.py || echo "No Tests"; done; cd ..; done'
+      run: 'for folder in $(ls -d */); do cd $folder; echo $folder; for file in *tests.py; do [ -e "$file" ] && python $file; done; cd ..; done'
