@@ -17,7 +17,7 @@ A simple tool for generating the probability distributions of skulls, shields an
 
 | Usage              | Description                                                                                               |
 | ---                | ---                                                                                                       |
-| `heroscape a b`    | Shows teh expected number of skulls, shields and wounds when rolling `a` attack dice and `b` defense dice |
+| `heroscape a b`    | Shows the expected number of skulls, shields and wounds when rolling `a` attack dice and `b` defense dice |
 | `python *tests.py` | Runs the tests                                                                                            |
 
 ## Example
