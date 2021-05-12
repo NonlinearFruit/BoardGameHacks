@@ -1,4 +1,5 @@
 # Board Game Hacks
+![[](https://github.com/NonlinearFruit/BoardGameHacks/actions/workflows/python.yml)](https://img.shields.io/github/workflow/status/NonlinearFruit/BoardGameHacks/Python%20Tests?label=tests)
 
 Simple scripts that break some of my favorite games xD
 
