@@ -2,19 +2,23 @@
 
 A simple tool for generating the probability distributions of skulls, shields and wounds
 
-## Dependencies
+| Dependencies                                                 |
+| ---                                                          |
+| Bash                                                         |
+| Python                                                       |
+| `pip install numpy`                                          |
+| `pip install numpy`                                          |
+| `pip install unittest`                                       |
+| [`pip install termgraph`](https://github.com/mkaz/termgraph) |
 
- - python
- - termgraph
- - numpy
- - unittest
+| Script      | Board Game Geek                                                              |
+| ---         | ---                                                                          |
+| `heroscape` | https://boardgamegeek.com/boardgame/11170/heroscape-master-set-rise-valkyrie |
 
-## Tests
-
-To run tests:
-```
-python dice_stats_tests.py
-```
+| Usage              | Description                                                                                               |
+| ---                | ---                                                                                                       |
+| `heroscape a b`    | Shows teh expected number of skulls, shields and wounds when rolling `a` attack dice and `b` defense dice |
+| `python *tests.py` | Runs the tests                                                                                            |
 
 ## Example
 

@@ -8,3 +8,4 @@ Simple scripts that break some of my favorite games xD
 | ---                                 |
 | [Can't Stop](CantStop/README.md)    |
 | [Dice Throne](DiceThrone/README.md) |
+| [Heroscape](Heroscape/README.md)    |
