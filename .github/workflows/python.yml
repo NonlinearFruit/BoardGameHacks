@@ -1,0 +1,15 @@
+name: Python Tests
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Run Tests
+      run: 'for folder in $(ls -d */); do cd $folder; echo $folder; for file in *tests.py; do [ -e "$file" ] && python *tests.py || echo "No Tests"; done; cd ..; done'
