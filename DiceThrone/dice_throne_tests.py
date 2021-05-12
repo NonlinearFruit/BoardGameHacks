@@ -234,5 +234,78 @@ class CharacterToPowerListDictionaryTests(unittest.TestCase):
 
         self.assertEqual(combos, result[power])
 
+class ChangeOfSuccess(unittest.TestCase):
+
+    def test_handles_when_result_count_is_zero(self):
+        powerCount = 1
+        resultCount = 0
+        rollsLefts = 1
+
+        chance = chance_of_success(powerCount, resultCount, rollsLefts)
+
+        self.assertEqual(0, chance)
+
+    def test_handles_when_power_count_is_zero(self):
+        powerCount = 0
+        resultCount = 1
+        rollsLefts = 1
+
+        chance = chance_of_success(powerCount, resultCount, rollsLefts)
+
+        self.assertEqual(0, chance)
+
+    def test_handles_when_rolls_left_is_zero(self):
+        powerCount = 1
+        resultCount = 1
+        rollsLefts = 0
+
+        chance = chance_of_success(powerCount, resultCount, rollsLefts)
+
+        self.assertEqual(0, chance)
+
+    def test_returns_the_ratio_of_power_to_result_when_rolls_left_is_one(self):
+        resultCount = 10
+        rollsLefts = 1
+        for powerCount in range(resultCount):
+            chance = chance_of_success(powerCount, resultCount, rollsLefts)
+
+            self.assertEqual(powerCount/(resultCount+0.0), chance)
+
+    def test_one_when_large_number_of_rolls_lefts(self):
+        powerCount = 1
+        resultCount = 1
+        rollsLefts = 10
+
+        chance = chance_of_success(powerCount, resultCount, rollsLefts)
+
+        self.assertEqual(1, chance)
+
+    def test_zero_when_large_number_of_rolls_lefts(self):
+        powerCount = 0
+        resultCount = 1
+        rollsLefts = 10
+
+        chance = chance_of_success(powerCount, resultCount, rollsLefts)
+
+        self.assertEqual(0, chance)
+
+    def test_calculates_lower_success_bound_when_two_rolls_left(self):
+        powerCount = 1
+        resultCount = 2
+        rollsLefts = 2
+
+        chance = chance_of_success(powerCount, resultCount, rollsLefts)
+
+        self.assertEqual(0.5 + (1 - 0.5)*0.5, chance)
+
+    def test_calculates_lower_success_bound_when_three_rolls_left(self):
+        powerCount = 1
+        resultCount = 2
+        rollsLefts = 3
+
+        chance = chance_of_success(powerCount, resultCount, rollsLefts)
+
+        self.assertEqual(.5 + .25 + .125, chance)
+
 if __name__ == '__main__':
     unittest.main()
