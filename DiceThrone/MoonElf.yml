@@ -1,0 +1,20 @@
+Dice:
+ Arrow: [1, 2, 3]
+ Foot: [4, 5]
+ Moon: [6]
+Powers:
+ Longbow 1: ["Arrow", "Arrow", "Arrow"]
+ Longbow 2: ["Arrow", "Arrow", "Arrow", "Arrow"]
+ Longbow 3: ["Arrow", "Arrow", "Arrow", "Arrow", "Arrow"]
+ Demising Shot: ["Arrow", "Arrow", "Arrow", "Moon", "Moon"]
+ Covered Shot: ["Arrow", "Arrow", "Foot", "Foot", "Foot"]
+ Exploding Arrow: ["Arrow", "Moon", "Moon", "Moon"]
+ Lunar Eclipse!: ["Moon", "Moon", "Moon", "Moon", "Moon"]
+ Eclipse: ["Moon", "Moon", "Moon", "Moon"]
+ ??: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Blinding Shot: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]

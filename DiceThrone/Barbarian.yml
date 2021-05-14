@@ -1,0 +1,22 @@
+Dice:
+ Sword: [1, 2, 3]
+ Life: [4, 5]
+ Pow: [6]
+Powers:
+ Smack 1: ["Sword", "Sword", "Sword"]
+ Smack 2: ["Sword", "Sword", "Sword", "Sword"]
+ Smack 3: ["Sword", "Sword", "Sword", "Sword", "Sword"]
+ Fortitude 1: ["Life", "Life", "Life"]
+ Fortitude 2: ["Life", "Life", "Life", "Life"]
+ Fortitude 3: ["Life", "Life", "Life", "Life", "Life"]
+ Sturdy Blow: ["Sword", "Sword", "Pow", "Pow"]
+ Overpower: ["Sword", "Sword", "Sword", "Pow", "Pow"]
+ Rage!: ["Pow", "Pow", "Pow", "Pow", "Pow"]
+ Crit Bash: ["Pow", "Pow", "Pow", "Pow"]
+ Mighty Blow: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Reckless: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]
