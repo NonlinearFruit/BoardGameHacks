@@ -1,0 +1,21 @@
+Dice:
+ Flame: [1, 2, 3]
+ Blaze: [4]
+ Fiery Soul: [5]
+ Miteor: [6]
+Powers:
+ Fireball 1: ["Flame", "Flame", "Flame"]
+ Fireball 2: ["Flame", "Flame", "Flame", "Flame"]
+ Fireball 3: ["Flame", "Flame", "Flame", "Flame", "Flame"]
+ Pyroblast: ["Flame", "Flame", "Flame", "Miteor"]
+ Burning Soul: ["Fiery Soul", "Fiery Soul"]
+ Combustion: ["Flame", "Blaze", "Fiery Soul", "Miteor"]
+ Scorch The Earth!: ["Miteor", "Miteor", "Miteor", "Miteor", "Miteor"]
+ Meteorite: ["Miteor", "Miteor", "Miteor", "Miteor"]
+ Hot Streak: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Ignite: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]
