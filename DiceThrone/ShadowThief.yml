@@ -1,0 +1,22 @@
+Dice:
+ Dagger: [1, 2]
+ Bag: [3, 4]
+ Card: [5]
+ Shadow: [6]
+Powers:
+ Dagger Strike 1: ["Dagger", "Dagger", "Dagger"]
+ Dagger Strike 2: ["Dagger", "Dagger", "Dagger", "Dagger"]
+ Dagger Strike 3: ["Dagger", "Dagger", "Dagger", "Dagger", "Dagger"]
+ Pickpocket 1: ["Dagger", "Dagger"]
+ Pickpocket 2: ["Dagger", "Dagger", "Dagger"]
+ Pickpocket 3: ["Dagger", "Dagger", "Dagger", "Dagger"]
+ Shadow Dance: ["Shadow", "Shadow", "Shadow"]
+ Shadow Shank!: ["Shadow", "Shadow", "Shadow", "Shadow", "Shadow"]
+ Carducopia: ["Card", "Card"]
+ Shifty Strike: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Insidious Strike: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]

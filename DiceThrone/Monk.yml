@@ -1,0 +1,21 @@
+Dice:
+ Fist: [1, 2]
+ Palm: [3]
+ Zen: [4, 5]
+ Lotus: [6]
+Powers:
+ Fist Strike 1: ["Fist", "Fist", "Fist"]
+ Fist Strike 2: ["Fist", "Fist", "Fist", "Fist"]
+ Fist Strike 3: ["Fist", "Fist", "Fist", "Fist", "Fist"]
+ Combo Strike: ["Fist", "Fist", "Fist", "Palm"]
+ Tempest Rush: ["Palm", "Palm", "Palm"]
+ Meditate: ["Zen", "Zen", "Zen"]
+ Lotus Strike: ["Lotus", "Lotus", "Lotus", "Lotus"]
+ Transcendence!: ["Lotus", "Lotus", "Lotus", "Lotus", "Lotus"]
+ Fist Of Harmony: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Fist Of Tranquility: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]
