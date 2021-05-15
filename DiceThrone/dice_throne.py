@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import yaml
 import argparse
 import itertools
@@ -6,7 +7,8 @@ DIE = [1, 2, 3, 4, 5, 6]
 DIE_COUNT = 5
 
 def load_character(character):
-    with open(character+'.yml', 'r') as file:
+    character += '.yml' if not character.endswith('.yml') else ''
+    with open(character, 'r') as file:
        return yaml.safe_load(file)
 
 def dice_results(fixedDice = None):
