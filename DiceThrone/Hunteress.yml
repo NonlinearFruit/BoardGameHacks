@@ -1,0 +1,22 @@
+Dice:
+ Spear: [1, 2]
+ Claw: [3, 4]
+ Bonded Soul: [5]
+ Saber Tooth: [6]
+Powers:
+ Animalistic 1: ["Spear", "Spear", "Spear"]
+ Animalistic 2: ["Spear", "Spear", "Spear", "Spear"]
+ Animalistic 3: ["Spear", "Spear", "Spear", "Spear", "Spear"]
+ Feral Instincts: ["Spear", "Spear", "Spear", "Bonded Soul"]
+ Savage: ["Claw", "Claw", "Claw", "Saber Tooth"]
+ Resuscitate: ["Bonded Soul", "Bonded Soul"]
+ Predatory Advance: ["Spear", "Spear", "Claw", "Claw", "Bonded Soul"]
+ Feral: ["Saber Tooth", "Saber Tooth", "Saber Tooth", "Saber Tooth"]
+ Split the Heavens!: ["Saber Tooth", "Saber Tooth", "Saber Tooth", "Saber Tooth", "Saber Tooth"]
+ Onslaught 1: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Onslaught 2: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]

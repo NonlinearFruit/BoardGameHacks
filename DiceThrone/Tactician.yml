@@ -1,0 +1,20 @@
+Dice:
+ Saber: [1, 2, 3]
+ Flag: [4, 5]
+ Medal: [6]
+Powers:
+ Saber Strike 1: ["Saber", "Saber", "Saber"]
+ Saber Strike 2: ["Saber", "Saber", "Saber", "Saber"]
+ Saber Strike 3: ["Saber", "Saber", "Saber", "Saber", "Saber"]
+ Carpet Bomb: ["Saber", "Saber", "Medal", "Medal"]
+ Profiteer: ["Saber", "Flag", "Flag", "Flag"]
+ Strategic Approach: ["Saber", "Saber", "Saber", "Medal", "Medal"]
+ Higher Ground!: ["Medal", "Medal", "Medal", "Medal", "Medal"]
+ Maneuver: ["Medal", "Medal", "Medal", "Medal"]
+ Flank: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Exploit: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]

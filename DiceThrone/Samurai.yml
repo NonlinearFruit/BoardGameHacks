@@ -1,0 +1,19 @@
+Dice:
+ Katana: [1, 2, 3]
+ Kabuto: [4, 5]
+ Rising Sun: [6]
+Powers:
+ Katana Slice 1: ["Katana", "Katana", "Katana"]
+ Katana Slice 2: ["Katana", "Katana", "Katana", "Katana"]
+ Katana Slice 3: ["Katana", "Katana", "Katana", "Katana", "Katana"]
+ Wakizashi: ["Katana", "Katana", "Rising Sun", "Rising Sun"]
+ Solemnity: ["Katana", "Katana", "Kabuto", "Kabuto", "Kabuto"]
+ Shogun!: ["Rising Sun", "Rising Sun", "Rising Sun", "Rising Sun", "Rising Sun"]
+ Hagakure: ["Rising Sun", "Rising Sun", "Rising Sun", "Rising Sun"]
+ Budo: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Masamune: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]
