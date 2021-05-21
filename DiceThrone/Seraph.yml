@@ -1,0 +1,21 @@
+Dice:
+ Blade: [1, 2, 3]
+ Wings: [4]
+ Cross: [5]
+ Angelic Pendant: [6]
+Powers:
+ Holy Blade 1: ["Blade", "Blade", "Blade"]
+ Holy Blade 2: ["Blade", "Blade", "Blade", "Blade"]
+ Holy Blade 3: ["Blade", "Blade", "Blade", "Blade", "Blade"]
+ Glorious: ["Blade", "Blade", "Blade", "Wings"]
+ Purify: ["Cross", "Cross", "Angelic Pendant"]
+ Holy Smite: ["Blade", "Wings", "Cross", "Angelic Pendant"]
+ Highest Power: ["Angelic Pendant", "Angelic Pendant", "Angelic Pendant", "Angelic Pendant"]
+ Split the Heavens!: ["Angelic Pendant", "Angelic Pendant", "Angelic Pendant", "Angelic Pendant", "Angelic Pendant"]
+ Triumphant: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Archangel's Will: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]

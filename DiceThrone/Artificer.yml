@@ -1,0 +1,19 @@
+Dice:
+ Wrench: [1, 2, 3]
+ Gear: [4, 5]
+ Bolt: [6]
+Powers:
+ Spanner Strike 1: ["Wrench", "Wrench", "Wrench"]
+ Spanner Strike 2: ["Wrench", "Wrench", "Wrench", "Wrench"]
+ Spanner Strike 3: ["Wrench", "Wrench", "Wrench", "Wrench", "Wrench"]
+ Schematics: ["Gear", "Gear", "Gear", "Bolt"]
+ Holy Smite: ["Wrench", "Wrench", "Gear", "Gear","Gear"]
+ Overclock: ["Bolt", "Bolt", "Bolt", "Bolt"]
+ Maximum Power!: ["Bolt", "Bolt", "Bolt", "Bolt", "Bolt"]
+ Jolt: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Zapppp!: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]

@@ -1,0 +1,20 @@
+Dice:
+ Claw: [1, 2, 3]
+ Gaze: [4, 5]
+ Droplet: [6]
+Powers:
+ Gouge 1: ["Claw", "Claw", "Claw"]
+ Gouge 2: ["Claw", "Claw", "Claw", "Claw"]
+ Gouge 3: ["Claw", "Claw", "Claw", "Claw", "Claw"]
+ Rend: ["Claw", "Claw", "Claw", "Droplet", "Droplet"]
+ Glamour: ["Gaze", "Gaze", "Gaze"]
+ Sanguimancy: ["Gaze","Gaze","Gaze","Droplet"]
+ Exsanguinate!: ["Droplet", "Droplet", "Droplet", "Droplet", "Droplet"]
+ Blood Thirst: ["Droplet", "Droplet", "Droplet", "Droplet"]
+ Possess: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Blood Magic: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]
