@@ -1,0 +1,20 @@
+Dice:
+ Cutlass: [1, 2, 3]
+ Booty: [4, 5]
+ Skull: [6]
+Powers:
+ Soul Cutlass 1: ["Cutlass", "Cutlass", "Cutlass"]
+ Soul Cutlass 2: ["Cutlass", "Cutlass", "Cutlass", "Cutlass"]
+ Soul Cutlass 3: ["Cutlass", "Cutlass", "Cutlass", "Cutlass", "Cutlass"]
+ Dread Mark: ["Booty", "Booty", "Booty"]
+ Abyssal Walk: ["Cutlass", "Booty", "Booty", "Skull"]
+ The Shivering: ["Cutlass", "Skull", "Skull", "Skull"]
+ Cursed Touch!: ["Skull", "Skull", "Skull", "Skull", "Skull"]
+ Black Soul: ["Skull", "Skull", "Skull", "Skull"]
+ Thar She Blows 1: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Thar She Blows 2: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]

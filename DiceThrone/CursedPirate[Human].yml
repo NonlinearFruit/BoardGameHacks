@@ -1,0 +1,20 @@
+Dice:
+ Cutlass: [1, 2, 3]
+ Booty: [4, 5]
+ Skull: [6]
+Powers:
+ Cutlass Strike 1: ["Cutlass", "Cutlass", "Cutlass"]
+ Cutlass Strike 2: ["Cutlass", "Cutlass", "Cutlass", "Cutlass"]
+ Cutlass Strike 3: ["Cutlass", "Cutlass", "Cutlass", "Cutlass", "Cutlass"]
+ X Marks the Spot: ["Booty", "Booty", "Booty"]
+ Walk the Plank: ["Cutlass", "Booty", "Booty", "Skull"]
+ Shiver Me Timbers: ["Cutlass", "Skull", "Skull", "Skull"]
+ Pirate's Touch!: ["Skull", "Skull", "Skull", "Skull", "Skull"]
+ Black Spot: ["Skull", "Skull", "Skull", "Skull"]
+ Light the Fuse 1: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Light the Fuse 2: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]
