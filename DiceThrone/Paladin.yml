@@ -1,0 +1,19 @@
+Dice:
+ Sword: [1, 2]
+ Helmet: [3, 4]
+ Life: [5]
+ Prayer: [6]
+Powers:
+ Resolute Faith!: ["Prayer", "Prayer", "Prayer", "Prayer", "Prayer"]
+ Mighty Prayer: ["Sword", "Sword", "Sword", "Prayer"]
+ Righteous Combat: ["Sword", "Sword", "Sword", "Helmet", "Helmet"]
+ Retaliate: ["Helmet", "Helmet", "Helmet", "Prayer"]
+ Holy Light: ["Life", "Life"]
+ Righteous Prayer: ["Prayer", "Prayer", "Prayer", "Prayer"]
+ Holy Attack 1: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Holy Attack 2: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]

@@ -1,0 +1,20 @@
+Dice:
+ Ninjato: [1, 2, 3]
+ Shuriken: [4, 5]
+ Mask: [6]
+Powers:
+ ?? 1: ["Ninjato", "Ninjato", "Ninjato"]
+ ?? 2: ["Ninjato", "Ninjato", "Ninjato", "Ninjato"]
+ ?? 3: ["Ninjato", "Ninjato", "Ninjato", "Ninjato", "Ninjato"]
+ Walk The Line: ["Shuriken", "Shuriken", "Shuriken", "Shuriken"]
+ Death Blossom: ["Ninjato", "Ninjato", "Ninjato", "Shuriken", "Shuriken"]
+ Smoke Screen: ["Ninjato", "Shuriken", "Shuriken", "Mask"]
+ Assassinate!: ["Mask", "Mask", "Mask", "Mask", "Mask"]
+ Shadewalk: ["Mask", "Mask", "Mask", "Mask"]
+ Poison Blade: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Shadow Fang: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]

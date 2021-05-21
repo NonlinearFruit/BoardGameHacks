@@ -1,0 +1,19 @@
+Dice:
+ Branch: [1, 2, 3]
+ Leaf: [4, 5]
+ Spirit: [6]
+Powers:
+ Splinter 1: ["Branch", "Branch", "Branch"]
+ Splinter 2: ["Branch", "Branch", "Branch", "Branch"]
+ Splinter 3: ["Branch", "Branch", "Branch", "Branch", "Branch"]
+ Tend: ["Leaf", "Leaf", "Spirit", "Spirit"]
+ Overgrowth: ["Branch", "Branch", "Leaf", "Leaf", "Leaf"]
+ Wake The Forest!: ["Spirit", "Spirit", "Spirit", "Spirit", "Spirit"]
+ Nature's Grasp: ["Spirit", "Spirit", "Spirit", "Spirit"]
+ Vengeful Vine: 
+   - [1, 2, 3, 4]
+   - [2, 3, 4, 5]
+   - [3, 4, 5, 6]
+ Call Of The Wild: 
+   - [1, 2, 3, 4, 5]
+   - [2, 3, 4, 5, 6]
