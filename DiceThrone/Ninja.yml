@@ -3,9 +3,9 @@ Dice:
  Shuriken: [4, 5]
  Mask: [6]
 Powers:
- ?? 1: ["Ninjato", "Ninjato", "Ninjato"]
- ?? 2: ["Ninjato", "Ninjato", "Ninjato", "Ninjato"]
- ?? 3: ["Ninjato", "Ninjato", "Ninjato", "Ninjato", "Ninjato"]
+ Slash 1: ["Ninjato", "Ninjato", "Ninjato"]
+ Slash 2: ["Ninjato", "Ninjato", "Ninjato", "Ninjato"]
+ Slash 3: ["Ninjato", "Ninjato", "Ninjato", "Ninjato", "Ninjato"]
  Walk The Line: ["Shuriken", "Shuriken", "Shuriken", "Shuriken"]
  Death Blossom: ["Ninjato", "Ninjato", "Ninjato", "Shuriken", "Shuriken"]
  Smoke Screen: ["Ninjato", "Shuriken", "Shuriken", "Mask"]
