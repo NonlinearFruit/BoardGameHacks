@@ -3,7 +3,7 @@ import sys
 import json
 
 def pretty_print(thing):
-    print printStats(thing)
+    print(printStats(thing))
 
 def printStats(results):
     result = ""
@@ -44,7 +44,7 @@ def table_of_probabilities():
     total = len(get_die_results()) + 0.0
     for key in keys:
         sums[key] = sums[key] / total
-    print 'Probability of Getting A Sum'
+    print('Probability of Getting A Sum')
     pretty_print(sums)
 
 def ways_to_not_have_one_sum(x):
@@ -65,8 +65,8 @@ def ways_to_not_have_one_sum(x):
     total = len(get_die_results()) + 0.0
     for key in keys:
         sums[key] = sums[key] / count
-    print str(count)+'/'+str(total)+' ways to not get a sum of '+str(x)
-    print '\nProbability Of Getting A Sum Given A Sum Of '+str(x)+' Is Not Possible'
+    print(str(count)+'/'+str(total)+' ways to not get a sum of '+str(x))
+    print('\nProbability Of Getting A Sum Given A Sum Of '+str(x)+' Is Not Possible')
     pretty_print(sums)
 
 def ways_to_not_have_two_sums(x, y):
@@ -87,8 +87,8 @@ def ways_to_not_have_two_sums(x, y):
     total = len(get_die_results()) + 0.0
     for key in keys:
         sums[key] = sums[key] / count
-    print str(count)+'/'+str(total)+' ways to not get a sum of '+str(x)+' OR '+str(y)
-    print '\nProbability Of Getting A Sum Given A Sum Of '+str(x)+' And A Sum Of '+str(y)+' Is Not Possible'
+    print(str(count)+'/'+str(total)+' ways to not get a sum of '+str(x)+' OR '+str(y))
+    print('\nProbability Of Getting A Sum Given A Sum Of '+str(x)+' And A Sum Of '+str(y)+' Is Not Possible')
     pretty_print(sums)
 
 def ways_to_not_have_three_sums(x, y, z):
@@ -109,15 +109,15 @@ def ways_to_not_have_three_sums(x, y, z):
     total = len(get_die_results()) + 0.0
     for key in keys:
         sums[key] = sums[key] / count
-    print str(count)+'/'+str(total)+' ways to not get a sum of '+str(x)+' OR '+str(y)+' OR '+str(z)
-    print '\nProbability Of Getting A Sum Given A Sum Of '+str(x)+' And A Sum Of '+str(y)+' And A Sum Of '+str(z)+' Is Not Possible'
+    print(str(count)+'/'+str(total)+' ways to not get a sum of '+str(x)+' OR '+str(y)+' OR '+str(z))
+    print('\nProbability Of Getting A Sum Given A Sum Of '+str(x)+' And A Sum Of '+str(y)+' And A Sum Of '+str(z)+' Is Not Possible')
     pretty_print(sums)
 
 def possible_sums(a, b, c, d):
     combos = [a + b, c + d, a + c, b + d, a + d, c + b]
     results = sorted(list(set(combos)))
-    print 'All the sum combos for '+str(a)+', '+str(b)+', '+str(c)+' and '+str(d)
-    print results
+    print('All the sum combos for '+str(a)+', '+str(b)+', '+str(c)+' and '+str(d))
+    print(results)
 
 if __name__ == '__main__':
     countOfNumbers = len(sys.argv) - 1
