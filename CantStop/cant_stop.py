@@ -66,6 +66,7 @@ def ways_to_not_have_one_sum(x):
     for key in keys:
         sums[key] = sums[key] / count
     print(str(count)+'/'+str(total)+' ways to not get a sum of '+str(x))
+    print('  Expect '+str(expected_value(count/total))+' consecuative rolls that contain a '+str(x))
     print('\nProbability Of Getting A Sum Given A Sum Of '+str(x)+' Is Not Possible')
     pretty_print(sums)
 
@@ -88,6 +89,7 @@ def ways_to_not_have_two_sums(x, y):
     for key in keys:
         sums[key] = sums[key] / count
     print(str(count)+'/'+str(total)+' ways to not get a sum of '+str(x)+' OR '+str(y))
+    print('  Expect '+str(expected_value(count/total))+' consecuative rolls that contain a '+str(x)+' OR '+str(y))
     print('\nProbability Of Getting A Sum Given A Sum Of '+str(x)+' And A Sum Of '+str(y)+' Is Not Possible')
     pretty_print(sums)
 
@@ -110,6 +112,7 @@ def ways_to_not_have_three_sums(x, y, z):
     for key in keys:
         sums[key] = sums[key] / count
     print(str(count)+'/'+str(total)+' ways to not get a sum of '+str(x)+' OR '+str(y)+' OR '+str(z))
+    print('  Expect '+str(expected_value(count/total))+' consecuative rolls that contain a '+str(x)+' OR '+str(y)+' OR '+str(z))
     print('\nProbability Of Getting A Sum Given A Sum Of '+str(x)+' And A Sum Of '+str(y)+' And A Sum Of '+str(z)+' Is Not Possible')
     pretty_print(sums)
 
@@ -118,6 +121,9 @@ def possible_sums(a, b, c, d):
     results = sorted(list(set(combos)))
     print('All the sum combos for '+str(a)+', '+str(b)+', '+str(c)+' and '+str(d))
     print(results)
+
+def expected_value(probability_of_not_continuing):
+    return 1.0/probability_of_not_continuing - 1
 
 if __name__ == '__main__':
     countOfNumbers = len(sys.argv) - 1
